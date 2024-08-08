@@ -27,7 +27,7 @@ function exibirTexto(tag, texto) {
 function exibirTextoInicial() {
 exibirTexto('h1', 'Secret Number');
 exibirTexto('p', 'Escolha um número de 1 a 100');
-};
+}
 
 exibirTextoInicial();
 
@@ -56,12 +56,12 @@ function verificarChute() {
             numeroDeTentativas++;
             limparCampoResposta();
  }
-};
+}
 
 function limparCampoResposta() { 
     chute = document.querySelector('input');
     chute.value = '';
-};
+}
 
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroSecreto();
